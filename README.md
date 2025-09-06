@@ -66,13 +66,11 @@ Produto (Relaciona com ItemPedido)
 ├── 📄 eCommerce.dblm
 └── 📁 docs/
     ├── 📁 images/
-    │   ├── 📷 diagrama_er.png
-    │   ├── 📷 estrutura_tabelas.png
-    │   └── 📷 relacionamentos.png
-    └── 📄 documentacao_tecnica.md
+    │   ├── imagem_2025-09-06_162359811.png
+
 ```
 
-## 🚀 Como Utilizar
+## 🚀 Como Utilizar:
 
 ### Pré-requisitos
 - Sistema de Gerenciamento de Banco de Dados (MySQL, PostgreSQL, SQL Server, etc.)
@@ -129,7 +127,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-Desenvolvido durante o **Database Experience** da **[DIO](https://dio.me)**
+Desenvolvido por Otávio Guedes durante o **Database Experience** da **[DIO](https://dio.me)**
 
 ---
 
