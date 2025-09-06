@@ -1,0 +1,56 @@
+Table Cliente {
+  id_cliente int [pk]
+  nome varchar
+  email varchar
+  telefone varchar
+}
+
+Table ClientePF {
+  id_cliente int [pk, ref: > Cliente.id_cliente]
+  cpf varchar
+  data_nascimento date
+}
+
+Table ClientePJ {
+  id_cliente int [pk, ref: > Cliente.id_cliente]
+  cnpj varchar
+  razao_social varchar
+}
+
+Table Pedido {
+  id_pedido int [pk]
+  data_pedido date
+  valor_total decimal
+  status_pedido varchar
+  id_cliente int [ref: > Cliente.id_cliente]
+}
+
+Table Pagamento {
+  id_pagamento int [pk]
+  tipo_pagamento varchar
+  dados_pagamento varchar
+  id_pedido int [ref: > Pedido.id_pedido]
+}
+
+Table Entrega {
+  id_entrega int [pk]
+  status_entrega varchar
+  codigo_rastreio varchar
+  id_pedido int [ref: > Pedido.id_pedido]
+}
+
+Table Produto {
+  id_produto int [pk]
+  nome varchar
+  descricao text
+  preco decimal
+  estoque int
+}
+
+Table ItemPedido {
+  id_item int [pk]
+  quantidade int
+  preco_unitario decimal
+  id_pedido int [ref: > Pedido.id_pedido]
+  id_produto int [ref: > Produto.id_produto]
+}
