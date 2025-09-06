@@ -12,9 +12,10 @@ Este projeto faz parte da **Database Experience** da **DIO** e tem como objetivo
 - Suportar diferentes tipos de clientes (Pessoa Física e Pessoa Jurídica)
 - Gerenciar todo o ciclo de vida de um pedido
 
-## 🏗️ Estrutura do Banco de Dados
-
-### 📊 Diagrama Entidade-Relacionamento
+### 📊 Diagrama Entidade-Relacionamento:
+<p align="center">
+  <img src="docs/images/imagem_2025-09-06_162359811.png" alt="Diagrama ER" width="700">
+</p>
 
 O projeto utiliza as seguintes tabelas principais:
 
@@ -63,8 +64,11 @@ Produto (Relaciona com ItemPedido)
 📁 Refinando-um-Projeto-Conceitual-de-Banco-de-Dados-E-COMMERCE/
 ├── 📄 README.md
 ├── 📄 eCommerce.dblm
-└── 📁 docs/ (opcional)
-    ├── 📄 diagrama_ER.png
+└── 📁 docs/
+    ├── 📁 images/
+    │   ├── 📷 diagrama_er.png
+    │   ├── 📷 estrutura_tabelas.png
+    │   └── 📷 relacionamentos.png
     └── 📄 documentacao_tecnica.md
 ```
 
@@ -125,7 +129,13 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Otávio Guedes durante o **Database Experience** da **[DIO](https://dio.me)**
+Desenvolvido durante o **Database Experience** da **[DIO](https://dio.me)**
+
+---
+
+### 📞 Contato
+
+Para dúvidas ou sugestões sobre este projeto, sinta-se à vontade para abrir uma issue ou entrar em contato.
 
 ---
 
